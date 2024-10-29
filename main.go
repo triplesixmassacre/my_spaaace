@@ -14,7 +14,4 @@ func main() {
 		n = sum
 	}
 	fmt.Println(n)
-	var a int
-	fmt.Scan(&a)
-	fmt.Println(a%10 + a/10%10 + a/100)
 }
